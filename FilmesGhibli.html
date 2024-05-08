@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Filmes Ghibli</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="960_12_col.css">
+</head>
+<body>
+    <div class="container_12 clearfix">
+
+    <img class="banner" src="bannersite.png"/>
+
+    <h1></h1>
+    
+    <h2>Trailer | O Menino e a Garça</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/gl_3RdbS4fQ?si=zBBBwsSPP2E2CtdL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <br>
+    <br/>
+
+    <h2>Filmes em Cartaz </h2>
+
+    <div class="grid_3">
+    <p> <b>O Menino e a Garça </b> <br><img src="postermakito.jpg" /> <br>
+         Mahito, um menino de 12 anos, 
+        luta para se estabelecer em uma nova cidade após a 
+        morte de sua mãe. Quando uma garça falante conta para 
+        Mahito que sua mãe ainda está viva, ele entra em uma 
+        torre abandonada em busca dela, o que o leva para outro mundo.</p>
+    </div>
+
+    <div class="grid_3">
+    <p> <b> A Viagem de Chihiro </b> <br><img src="posterchihiro.jpg"/> <br> 
+        Chihiro conta a história de Chihiro, uma menina de 10 anos que se muda com 
+        seus pais para uma nova cidade. No caminho, eles se perdem e acabam encontrando 
+        um túnel misterioso que os leva a um mundo mágico habitado por espíritos.</p>
+    </div>
+    
+    <div class="grid_3">
+    <p> <b>As Memórias de Marnie </b> <br> <img src="postermarnie.jpg"/> <br> Anna, uma menina solitária e curiosa, decide 
+        explorar uma velha mansão abandonada e conhece uma garota loira 
+        misteriosa que somente ela consegue ver.</p>
+    </div>  
+
+    <div class="grid_3">
+    <p> <b>O Castelo Animado</b> <br> <img src="postercastelo.jpg"/> <br> Uma bruxa lança uma terrível maldição sobre a 
+        jovem Sophie transformando-a em uma velha. Desesperada, ela embarca 
+        em uma odisseia em busca do mago Howl, um misterioso feiticeiro 
+        que pode ajudá-la a reverter o feitiço.</p>
+    </div>
+
+    <div class="grid_12">
+     <h2> Informações de Horário </h2>
+    <table border="2">
+        <tr>
+            <th>Dia</th>
+            <th>Filme</th>
+            <th>Duração</th>
+            <th>Horário</th>
+            <th>Classificação</th>
+        </tr>
+        <tr>
+            <th>22/03/2024</th>
+            <td>O Menino e a Garça</td>
+            <td>2h 4m</td>
+            <td>15:00</td>
+            <td>12 anos</td>
+        </tr>
+        <tr>
+            <th>22/03/2024</th>
+            <td>A Viagem de Chihiro</td>
+            <td>2h 5m</td>
+            <td>17:40</td>
+            <td>Livre</td>
+        </tr>
+        <tr>
+            <th>23/03/2024</th>
+            <td>O Castelo Animado</td>
+            <td>1h 59m</td>
+            <td>14:00</td>
+            <td>Livre</td>
+        </tr>
+        <tr>
+            <th>23/03/2024</th>
+            <td>As Memórias de Marnie</td>
+            <td>1h 43m</td>
+            <td>17:20</td>
+            <td>10 anos</td>
+        </tr>
+    </table>
+    </div>
+
+    <div class="grid_6">
+    <h4> Informações de Pagamento</h4>
+    <form>
+        <p>Nome: <br>
+            <input type="text" nome="nome" size="15" maxlength="30"/>
+        </p>
+        <p>E-mail <br>
+            <input type="email" name="email"/>
+        </p>
+        <p>Selecione um Filme: <br>
+            <br />
+            <input type="radio" name="filme" value="meninogarça"
+            checked="checked" /> O menino e a Garça
+            <input type="radio" name="filme" value="viagemchihiro"
+            /> A Viagem de Chihiro
+            <input type="radio" name="filme" value="casteloanimado"
+            /> O Castelo Animado
+            <input type="radio" name="filme" value="memoriasmarnie"
+            /> As Memórias de Marnie
+        </p>
+        <p>Número do Cartão: <br>
+            <input type="text" nome="cartao" size="15" maxlength="16"/>
+        </p>
+        <p>Validade: <br>
+            <input type="text" nome="cartao" size="15" maxlength="16"/>
+        </p>
+        <p>CVV: <br>
+            <input type="text" nome="cartao" size="15" maxlength="16"/>
+        </p>
+
+             <input type="button" value="Confirmar Pagamento" onclick="msg()">
+
+
+    <script>
+        function msg() {
+         alert("Pagamento Realizado com Sucesso!");
+        }
+    </script>
+
+    </form>
+    </div>
+
+    <div class="grid_6">
+    <img class="totoro" src="totoroimg.png"/>
+    </div>
+    
+    <br>
+    <br>
+
+    <div class="grid_12">
+    <audio src="TotoroSong.mp3"
+        controls autoplay>
+    </audio>
+    </div>
+</div>
+</body>
+</html>
